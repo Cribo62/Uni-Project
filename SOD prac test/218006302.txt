@@ -1,0 +1,96 @@
+student number:218006302
+
+Question1:
+
+1.1.1) public class Employee
+       {
+         public int id;
+         class address:Address
+         {
+           public EmpAddress {get;set;}
+           public string FirstName {get; set;}
+           public string LastName {get;set}
+           public int ID {get;set;}
+          
+           public Address()
+           {}
+           
+          public override string ToString
+          {
+            return $"ID:{FirstName, LastName, address}";
+          }    
+         }
+         
+1.1.2) public class Weekly:Employee
+       {
+         public double DailyRate {get; set;}
+         public int DaysWorked {get;set;}
+
+         public Weekly()
+         {}
+
+         public Weekly(int ID, string FirstName, string LastName, double DailyRate, int DaysWorked);
+         {}
+       }
+
+1.1.3) Employees:CollectionBase
+       {
+         public Employee this[int index];
+         {
+           get
+           {
+             return (Employee)List[index];
+           }
+           set
+           {
+             List[index]= value;
+           }
+           pubic void Add(Employee NewEmployee)
+           {
+             List.Add(NewEmployee);
+           }
+           public void Remove(Employee NewEmployee)
+           {
+             List.Remove(NewEmployee);
+           }
+
+          public Employees();
+          {}
+         }
+       }
+
+1.1.4) Weekly w1 = new Weekly();
+       Weekly w2 = new Weekly();
+
+       Salary s1 = new Salary();
+       Salary s2 = new Salary();
+
+       Employees eList = new Employees();
+       eList.Add(w1);
+       eList.Add(s1);
+       eList.Add(w2);
+       eList.Add(s2);
+
+       foreach(Employees staff in eList)
+         {
+           if(staff is Weekly)
+            {
+              Console.WriteLine(w1.ToString(staff as Weekly));
+              Console.WriteLine(w2.ToString(staff as Weekly));
+            }
+         }
+
+1.1.5) foreach(Employees staff in eList)
+        {
+          if(staff is  Weekly)
+           {
+              Console.WriteLine(w1.ToString(staff as Weekly));
+              Console.WriteLine(w2.ToString(staff as Weekly));
+           }
+        }
+
+1.1.6) public Weekly()
+        {
+          Weekly w1 => w1.ID
+          Weekly w2 => w2.ID
+        }

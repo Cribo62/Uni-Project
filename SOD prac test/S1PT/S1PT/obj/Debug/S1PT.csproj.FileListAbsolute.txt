@@ -1,0 +1,7 @@
+C:\Users\Colin\Desktop\218006302\S1PT\S1PT\bin\Debug\S1PT.exe.config
+C:\Users\Colin\Desktop\218006302\S1PT\S1PT\bin\Debug\S1PT.exe
+C:\Users\Colin\Desktop\218006302\S1PT\S1PT\bin\Debug\S1PT.pdb
+C:\Users\Colin\Desktop\218006302\S1PT\S1PT\obj\Debug\S1PT.csprojAssemblyReference.cache
+C:\Users\Colin\Desktop\218006302\S1PT\S1PT\obj\Debug\S1PT.csproj.CoreCompileInputs.cache
+C:\Users\Colin\Desktop\218006302\S1PT\S1PT\obj\Debug\S1PT.exe
+C:\Users\Colin\Desktop\218006302\S1PT\S1PT\obj\Debug\S1PT.pdb
